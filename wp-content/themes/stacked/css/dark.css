@@ -1,0 +1,96 @@
+/*==========================================================================================
+	
+Dark CSS File
+This file contains styles related to the colour scheme of the theme
+
+==========================================================================================
+
+	1.	Link Colours
+	2.	Header
+
+==========================================================================================*/
+
+
+/*==========================================================================================
+	1.	Link Colours
+==========================================================================================*/
+
+#logo a { color: #fff; }
+#logo a:hover { color: #f1f1f1; }
+
+/*==========================================================================================
+	2.	Header
+==========================================================================================*/
+
+#header {
+	background: url(../images/dark/header_bg.jpg) repeat;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+}
+
+#header-top { background: url(../images/dark/border.png) bottom repeat-x; }
+
+#header-bottom { background: url(../images/dark/header_bottom_border.png) bottom repeat-x; }
+
+#header-search input,
+#primary-nav ul a {
+	color: #f1f5f9;
+}
+
+#header-search input:focus { color: #fff; }
+
+#header-search,
+#primary-nav ul a:hover,
+#primary-nav ul li.current-menu-item a{
+	background: url(../images/dark/nav_bg.png) repeat-x;
+}
+
+#header-search input { background: url(../images/dark/search_bg.png) no-repeat left center;  }
+
+#primary-nav ul ul { 
+	border-top: 3px solid #26292b;
+	background: #fff;
+}
+
+#primary-nav ul ul li.sfHover ul a,
+#primary-nav ul ul a {
+	color: #7c7c7c;
+}
+
+#primary-nav ul ul li.sfHover ul a:hover,
+#primary-nav ul li li.sfHover a,
+#primary-nav ul ul a:hover {
+	color: #444444;
+}
+
+#primary-nav ul li a .sf-sub-indicator {
+	background: url(../images/dark/drop_down_arrow.png) no-repeat;
+}
+
+#primary-nav ul li li a .sf-sub-indicator {
+	background: url(../images/dark/drop_across_arrow.png) no-repeat;
+}
+
+#primary-nav ul li li a:hover .sf-sub-indicator,
+#primary-nav ul li li.sfHover a .sf-sub-indicator {
+	background: url(../images/dark/drop_across_arrow.png) no-repeat -3px 0;
+}
+
+#header-search input { background: url(../images/dark/search_bg.png) no-repeat left center;  }
+
+#slider .entry-content a,
+#slider .entry-content h1, 
+#slider .entry-content h2, 
+#slider .entry-content h3, 
+#slider .entry-content h4, 
+#slider .entry-content h5, 
+#slider .entry-content h6 {
+	color: #f1f5f9;
+}
+
+#slider .entry-content { color: #bbbbbb; }
+
+#slider .entry-content a:hover { color: #fff; }
+
+#slider a.button {
+	border: none;
+} 

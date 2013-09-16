@@ -1,0 +1,62 @@
+*** Stacked Changelog ***
+
+13 August 2012 - Version 1.2.1
+
+	* style.css 
+		- updated version number
+		- updated copyright information
+		- updated width for 4/5 column
+		- replaced .home with .page-template-template-home-php
+	* functions.php - removed Google CDN of jQuery
+	* header.php - updated copyright
+	* footer.php - updated copyright
+
+18 June 2012 - Version 1.2
+
+	* admin-interface.php - moved to wp_get_theme()
+	* theme-options.php - moved to wp_get_theme()
+	* style.css - updated version number
+	* upload-button.js - fixed Cheatin Eh? bug
+	* functions.php 
+		- fixed squish login logo
+		- fixed url and theme name echo on login
+		- moved in tabs and toggles
+		- updated jQuery UI enqueue
+		
+	REMOVED
+	* jquery-ui-1.8.5.custom.min.js
+	* jquery.tabbed-widget.js
+	* jquery.shortcodes.js
+
+
+6 Jan 2012 - Version 1.1.1
+
+	* functions.php 
+		- updated validation code being used
+		- use wp_enqueue_scripts to load scripts
+	* index.php - fixed heading when search result returns empty
+	* theme-posttypes.php - remove rewrite from labels array
+	* style.css
+		- remove absolute positioning on tab shortcode.
+		- updated version number
+	* widget-tweets.php - updated to allow multiple instances
+	
+	ADDED:
+	* twitter.js
+
+19 Sept 2011 - Version 1.1
+	
+	* style.css - Current page drop down no longer inherits colour
+	* tinymce/plugin.js - Fixed shortcode image URL
+	* tinymce/config.php - Fixed shortcode bug
+	* single.php - Twitter option fix
+	* index.php - Twitter option fix
+	* template-contact.php - Fixed bug
+	* template-portfolio.php - Fixed sorting bug
+	* functions/theme-shortcodes.php - Tabs now support multiple instances
+	* js/jquery.custom.js - Fixed sorting bug
+	
+
+28 July 2011 - Version 1.0
+	
+	* First Release

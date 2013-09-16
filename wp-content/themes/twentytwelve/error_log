@@ -1,0 +1,3 @@
+[15-Aug-2013 10:53:07] PHP Fatal error:  Call to undefined function  get_header() in /home3/jwalkeru/public_html/division45/wp-content/themes/twentytwelve/tag.php on line 14
+[27-Aug-2013 04:03:00] PHP Fatal error:  Call to undefined function  get_header() in /home3/jwalkeru/public_html/division45/wp-content/themes/twentytwelve/index.php on line 17
+[02-Sep-2013 18:23:53] PHP Fatal error:  Call to undefined function  get_header() in /home3/jwalkeru/public_html/division45/wp-content/themes/twentytwelve/404.php on line 10

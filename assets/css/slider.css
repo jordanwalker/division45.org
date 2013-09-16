@@ -1,0 +1,62 @@
+#myController span{
+	color:#FFF;
+	margin-right:6px;
+	cursor:pointer;
+	background: url(../images/overlay.png) top left;
+	font-weight: bold;
+}
+
+#jFlowSlide{
+border: 0;
+
+}
+
+#myController span.jFlowSelected {
+	background:#336699;
+}
+
+.jFlowPrev, .jFlowNext{
+cursor:pointer;
+}
+
+.jFlowControl {
+	padding: 3px 10px;
+	position: relative;
+	top: -33px;
+	left: 15px;
+}
+
+.slide {
+	margin-left: 5px;
+	position: relative;
+}
+
+.panel-overlay {
+	background: url(../images/overlay.png) top left;
+	width: 280px;
+	height: 100px;
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	float: left;
+	padding: 10px;
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+.slide h2 {
+
+}
+.slide h2, .slide p {
+	color: #fff;
+	margin: 0;
+}
+
+.slide a {
+	color: #77aadd;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.slide a:hover {
+	color: #fff;
+	text-decoration: none;
+}
